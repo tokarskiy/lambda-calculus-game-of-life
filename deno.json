@@ -1,0 +1,8 @@
+{
+    "tasks": {
+        "game-of-life": "deno run --watch src/frontend/conway-game-of-life.frontend.ts"
+    },
+    "fmt": {
+        "indentWidth": 4
+    }
+}
