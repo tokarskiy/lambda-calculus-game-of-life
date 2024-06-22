@@ -54,9 +54,9 @@ Rules being used for building terms:
     ```
 
 These rules mean, that it's forbidden to use any libraries (even stdlib), 
-primitives, classes, `if`s, `while`s, lambdas with 0, 2 or more arguments, 
-lambdas returning `void`, arrays and other things. The only building block
-is lambda function, taking 1 argument and returning value. 
+primitives, classes, `if`s, `while`s, arrays, mutable states, objects, 
+lambdas returning void or with 0, 2 or more arguments and other things. 
+The only building block is lambda function, taking 1 argument and returning value. 
 
 Rules above may be ignored only in modules, responsible for unit testing 
 or interaction with "outer world" (console.log). These modules are defined in 
